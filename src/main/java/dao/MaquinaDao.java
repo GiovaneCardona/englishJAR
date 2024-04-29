@@ -67,7 +67,7 @@ public class MaquinaDao {
             List<Long> tamanhosDisco = disco.getTamanhosDisco();
 
             if (modelosDisco.size() != tamanhosDisco.size()) {
-                throw new IllegalArgumentException("O número de modelos de disco não corresponde ao número de tamanhos.");
+                throw new IllegalArgumentException("The number of disk models doesn't correspond to the number of sizes");
             }
 
             Integer parameterIndex = 16;
@@ -81,7 +81,7 @@ public class MaquinaDao {
             ps.executeUpdate();
             ps.close();
         } catch (SQLException e) {
-            System.out.println("Erro: " + e);
+            System.out.println("Error: " + e);
         }
     }
 }

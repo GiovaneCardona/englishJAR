@@ -32,27 +32,27 @@ public class UsoProcessador {
     public String toString() {
         return String.format("\n"
                         + "__________________________________\n"
-                        + "|   Informações do Processador   |\n"
+                        + "|   Processor informations   |\n"
                         + "|--------------------------------|\n"
-                        + "| Fabricante: %s\n"
-                        + "| Nome: %s\n"
+                        + "| Producer: %s\n"
+                        + "| Name: %s\n"
                         + "| ID: %s\n"
-                        + "| Uso: %.2f%%\n"
-                        + "| Frequência: %.2f GHz\n"
-                        + "| Identificador: %s\n"
-                        + "| Número de CPUs Físicas: %d\n"
-                        + "| Microarquitetura: %s\n"
-                        + "| Número de CPUs Lógicas: %d\n",
+                        + "| Use: %.2f%%\n"
+                        + "| Frequency: %.2f GHz\n"
+                        + "| Identifier: %s\n"
+                        + "| Number of physical CPUs: %d\n"
+                        + "| Microarchitecture: %s\n"
+                        + "| Number of logical CPUs: %d\n",
                 fabricante, nome, id, uso, frequencia / 1e9, identificador, numeroCpusFisicas, microarquitetura, numeroCpusLogicas);
     }
 
     public String toStringSimplified() {
         return String.format("\n"
                         + "______________________________\n"
-                        + "|      Uso do Processador     |\n"
+                        + "|      Processor use     |\n"
                         + "|-----------------------------|\n"
-                        + "| Total (frequecia): %.2f GHz |\n"
-                        + "| Uso: %.2f%%                  |\n"
+                        + "| Total (frequency): %.2f GHz |\n"
+                        + "| Use: %.2f%%                  |\n"
                         + "______________________________\n",
                 frequencia / 1e9, uso);
     }

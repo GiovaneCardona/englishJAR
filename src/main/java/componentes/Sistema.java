@@ -27,12 +27,12 @@ public class Sistema {
 
         return String.format("\n"
                         + "______________________________\n"
-                        + "|  Informações do Sistema    |\n"
+                        + "|  System informations    |\n"
                         + "|----------------------------|\n"
-                        + "| Tempo de Atividade: %d minutos |\n"
-                        + "| Sistema Operacional: %s    |\n"
-                        + "| Arquitetura: %d bits        |\n"
-                        + "| Fabricante: %s             |\n"
+                        + "| Activity time: %d minutes |\n"
+                        + "| Operational system: %s    |\n"
+                        + "| Architecture: %d bits        |\n"
+                        + "| Producer: %s             |\n"
                         + "______________________________\n",
                 tempoAtividadeMinutos, sistemaOperacional, arquitetura, fabricante);
     }

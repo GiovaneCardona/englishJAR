@@ -13,18 +13,18 @@ public class Logar {
         Boolean autenticado = false;
 
         do {
-            System.out.println("Nome de usuário: ");
+            System.out.println("User name:");
             nomeUsuario = scanner.nextLine();
 
-            System.out.println("Senha: ");
+            System.out.println("Password: ");
             senha = scanner.nextLine();
 
             autenticado = new LoginDao().autenticarUsuario(nomeUsuario, senha);
 
             if(!autenticado) {
-                System.out.println("Credenciais inválidas. Tente novamente.");
+                System.out.println("Invalid credentials, try again!");
             }
         } while (!autenticado);
-        System.out.println("Login bem-sucedido!");
+        System.out.println("Logged in successfully");
     }
 }

@@ -23,11 +23,11 @@ public class MemoriaRam {
     public String toString() {
         return String.format("\n"
                         + "__________________________________\n"
-                        + "|      Informações da Memória    |\n"
+                        + "|      Memory informations (RAM)   |\n"
                         + "|--------------------------------|\n"
-                        + "| Memória Total: %d GB           |\n"
-                        + "| Memória em Uso: %d GB           |\n"
-                        + "| Memória Disponível: %d GB       |\n"
+                        + "| Total memory: %d GB           |\n"
+                        + "| In use memory: %d GB           |\n"
+                        + "| Available memory: %d GB       |\n"
                         + "__________________________________\n",
 
                 memoriaTotal, memoriaEmUso, memoriaDisponivel);

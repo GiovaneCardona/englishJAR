@@ -22,12 +22,12 @@ public class InserirRegistros {
 
         if(!possuiRegistro) {
             new MaquinaDao().inserirDadosMaquina(processador, sistema, usoDisco, memoriaram);
-            System.out.println("Registrado com sucesso!");
+            System.out.println("Successfully registered!");
             String stringHardware = processador.toStringSimplified() + sistema.toString() + memoriaram.toString();
-            System.out.println("Aqui estão algumas informações básicas sobre sua máquina:");
+            System.out.println("Here are some informations about your machine!");
             System.out.println(stringHardware);
         } else {
-            System.out.println("A máquina está sendo monitorada.");
+            System.out.println("This machine is being monitored!");
         }
     }
 }
