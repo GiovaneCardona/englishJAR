@@ -67,7 +67,7 @@ public class MaquinaDao {
             List<Long> tamanhosDisco = disco.getTamanhosDisco();
 
             if (modelosDisco.size() != tamanhosDisco.size()) {
-                throw new IllegalArgumentException("The number of disk models doesn't correspond to the number of sizes");
+                throw new IllegalArgumentException("The number of disk models does not match the number of sizes available");
             }
 
             Integer parameterIndex = 16;

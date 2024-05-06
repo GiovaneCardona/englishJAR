@@ -24,7 +24,7 @@ public class InserirRegistros {
             new MaquinaDao().inserirDadosMaquina(processador, sistema, usoDisco, memoriaram);
             System.out.println("Successfully registered!");
             String stringHardware = processador.toStringSimplified() + sistema.toString() + memoriaram.toString();
-            System.out.println("Here are some informations about your machine!");
+            System.out.println("Here are some pieces of information about your machine!");
             System.out.println(stringHardware);
         } else {
             System.out.println("This machine is being monitored!");

@@ -31,10 +31,10 @@ public class GrupoJanelas {
     @Override
     public String toString() {
         StringBuilder builder = new StringBuilder();
-        builder.append("\n------ Processes group ------\n");
-        builder.append("Total processes ").append(getTotalJanelas()).append("\n");
-        builder.append("Total visible processes ").append(getTotalJanelasVisiveis()).append("\n");
-        builder.append("\nProcesses details\n");
+        builder.append("\n------ Process group ------\n");
+        builder.append("Total number of processes").append(getTotalJanelas()).append("\n");
+        builder.append("Total number of visible processes").append(getTotalJanelasVisiveis()).append("\n");
+        builder.append("\nProcess details\n");
         List<Janela> janelas = getJanelas();
         for (Janela janela : janelas) {
             System.out.println("---- Process ----");

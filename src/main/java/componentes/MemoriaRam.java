@@ -26,7 +26,7 @@ public class MemoriaRam {
                         + "|      Memory informations (RAM)   |\n"
                         + "|--------------------------------|\n"
                         + "| Total memory: %d GB           |\n"
-                        + "| In use memory: %d GB           |\n"
+                        + "| Memory in use: %d GB           |\n"
                         + "| Available memory: %d GB       |\n"
                         + "__________________________________\n",
 

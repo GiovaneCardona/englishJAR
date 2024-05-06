@@ -13,7 +13,7 @@ public class Logar {
         Boolean autenticado = false;
 
         do {
-            System.out.println("User name:");
+            System.out.println("Username:");
             nomeUsuario = scanner.nextLine();
 
             System.out.println("Password: ");

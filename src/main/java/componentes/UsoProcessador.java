@@ -49,7 +49,7 @@ public class UsoProcessador {
     public String toStringSimplified() {
         return String.format("\n"
                         + "______________________________\n"
-                        + "|      Processor use     |\n"
+                        + "|      Processor usage     |\n"
                         + "|-----------------------------|\n"
                         + "| Total (frequency): %.2f GHz |\n"
                         + "| Use: %.2f%%                  |\n"
